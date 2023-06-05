@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/darkTheme"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/account_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:text="Account number"/>
+
+    <TextView
+        android:id="@+id/account_balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:layout_below="@id/account_number"
+        android:text="0 руб."/>
+
+</RelativeLayout>

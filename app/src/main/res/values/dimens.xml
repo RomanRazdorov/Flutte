@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btnSize">120dp</dimen>
+    <dimen name="fieldSize">32dp</dimen>
+    <dimen name="textSize">27dp</dimen>
+</resources>
